@@ -1,0 +1,21 @@
+virtualenv --python=/usr/bin/python3 env
+
+source env/bin/activate	
+
+sudo apt install python-pip
+
+pip install markdown
+
+pip install --upgrade pip
+
+sudo apt install gunicorn
+
+pip install pip=19.3
+
+make install
+
+make run
+
+
+
+
